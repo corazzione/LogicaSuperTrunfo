@@ -128,29 +128,29 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-main.obj: main.c.obj
-.PHONY : main.obj
+super_trunfo.obj: super_trunfo.c.obj
+.PHONY : super_trunfo.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.c.obj
-.PHONY : main.c.obj
+super_trunfo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/super_trunfo.c.obj
+.PHONY : super_trunfo.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+super_trunfo.i: super_trunfo.c.i
+.PHONY : super_trunfo.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.c.i
-.PHONY : main.c.i
+super_trunfo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/super_trunfo.c.i
+.PHONY : super_trunfo.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+super_trunfo.s: super_trunfo.c.s
+.PHONY : super_trunfo.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.c.s
-.PHONY : main.c.s
+super_trunfo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/super_trunfo.c.s
+.PHONY : super_trunfo.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... super_trunfo.obj
+	@echo ... super_trunfo.i
+	@echo ... super_trunfo.s
 .PHONY : help
 
 
